@@ -1,0 +1,55 @@
+/*IMPORTS*/
+@import '../padding';
+@import '../palette';
+@import '../size';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+/*IMPORTS*/
+
+.main_area{
+    width: toVw(1440);
+    height: toVw(477);
+    background-color: #F5F8FA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: toVw(125);
+    margin-left: -0.6%;
+}
+
+/*CONTENT*/
+.text_area{
+    width: toVw(448);
+    height: toVw(324);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title_about_us{
+    width: toVw(149);
+    height: toVw(44);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: toVw(32);
+    line-height: toVw(44);
+    color: #263640;
+}
+
+.content_about_us{
+    width: toVw(448);
+    height: toVw(224);  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: toVw(16);
+    line-height: toVw(28);
+    color: #263640;
+}
+
+.about_us_photo{
+    width: toVw(600);
+    height: toVw(397.93);
+}
+/*CONTENT*/

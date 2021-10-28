@@ -1,0 +1,136 @@
+/*IMPORTS*/
+@import '../padding';
+@import '../palette';
+@import '../size';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+/*IMPORTS*/
+
+/*SECTORS*/
+.sectors_area{
+    width: toVw(1440);
+    height: toVw(640);
+    margin-left: -0.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: toVw(164);
+}
+
+/*TITLE*/
+.title_sectors{
+    width: toVw(1170);
+    height: toVw(44);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: toVw(32);
+    line-height: toVw(44);
+    color: #263640;
+}
+/*TITLE*/
+
+/*CONTENT*/
+.sectors_content_area{
+    width: toVw(1440);
+    height: toVw(560);
+    display: flex;
+    flex-direction: column;
+    margin-top: toVw(36);
+}
+
+/*Artificial intelligence*/
+.artificial_intelligence_area{
+    width: toVw(1440);
+    height: toVw(280);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.artificial_intelligence_content_area{
+    width: toVw(280);
+    height: toVw(280);
+    background: #FFFFFF;
+    border: toVw(1) solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artificial_intelligence_content{
+    width: toVw(152.73);
+    height: toVw(48);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: toVw(20);
+    line-height: toVw(24);
+    text-align: center;
+    color: #000000;
+}
+
+.artificial_intelligence_content1{
+    width: toVw(115.82);
+    height: toVw(24);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: toVw(20);
+    line-height: toVw(24);
+    text-align: center;
+    color: #000000;
+}
+
+.sectors_photo{
+    width: toVw(280);
+    height: toVw(280);
+}
+/*Artificial intelligence*/
+
+/*Cyber secutity*/
+.cyber_secutity_area{
+    width: toVw(1440);
+    height: toVw(280);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cyber_secutity_content_area{
+    width: toVw(280);
+    height: toVw(280);
+    background: #FFFFFF;
+    border: toVw(1) solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cyber_secutity_content1{
+    width: toVw(185.82);
+    height: toVw(24);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: toVw(20);
+    line-height: toVw(24);
+    text-align: center;
+    color: #000000;
+}
+
+.cyber_secutity_content{
+    width: toVw(146.36);
+    height: toVw(48);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: toVw(20);
+    line-height: toVw(24);
+    text-align: center;
+    color: #000000;
+}
+/*Cyber secutity*/
+/*CONTENT*/
+/*SECTORS*/

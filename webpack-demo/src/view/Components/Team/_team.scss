@@ -1,0 +1,115 @@
+/*IMPORTS*/
+@import '../padding';
+@import '../palette';
+@import '../size';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+/*IMPORTS*/
+
+/*TEAM*/
+.team_area{
+    width: toVw(1440);
+    height: toVw(802);
+    margin-top: toVw(120);
+    margin-left: -0.6%;
+    background-color: white;
+    padding-top: toVw(102);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*TITLE*/
+.team_title{
+    width: toVw(1120);
+    height: toVw(44);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: toVw(32);
+    line-height: toVw(44);
+    color: #263640;
+}
+/*TITLE*/
+
+/*CONTENT*/
+.team_content_area{
+    width: toVw(1120);
+    height: toVw(644);
+    display: flex;
+    flex-direction: row;
+    margin-top: toVw(36);
+}
+
+.team_content_text{
+    width: toVw(574);
+    height: toVw(448);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team_name{
+    width: toVw(455);
+    height: toVw(24);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: toVw(20);
+    line-height: 120%;
+    color: #263640;
+}
+
+.team_content{
+    width: toVw(574);
+    height: toVw(396);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: toVw(16);
+    line-height: 140%;
+    color: #263640;
+}
+
+.team_photo_area{
+    width: toVw(680);
+    height: toVw(564);
+}
+
+.team_photo{
+    position: absolute;
+    z-index: 11;
+    width: toVw(416);
+    height: toVw(480);
+    margin-left: toVw(130);
+}
+
+.team_photo_bg{
+    width: toVw(406);
+    height: toVw(488);
+    background: #F5F8FA;
+    box-shadow: toVw(0) toVw(10) toVw(50) rgba(0, 0, 0, 0.2), toVw(-50) toVw(100) toVw(50) rgba(247, 248, 250, 0.17);
+    border-radius: toVw(4);
+    margin-top: toVw(64);
+    margin-left: toVw(97);
+    position: absolute;
+}
+
+.team_switch_area{
+    width: toVw(1120);
+    height: toVw(24);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrow_left{
+    width: toVw(12);
+    height: toVw(24);
+    padding-right: toVw(64);
+}
+
+.arrow_right{
+    width: toVw(12);
+    height: toVw(24);
+}
+/*CONTENT*/
+/*TEAM*/

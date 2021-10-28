@@ -1,0 +1,142 @@
+/*IMPORTS*/
+@import '../padding';
+@import '../palette';
+@import '../size';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+/*IMPORTS*/
+
+body{
+    background-color: #F5F8FA;;
+}
+
+.header_area{
+    margin-left: -0.6%;
+    margin-top: -0.5%;
+    width: toVw(1440);
+    height: toVw(800);
+}
+
+.header{
+    width: toVw(1440);
+    height: toVw(132);
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+/*LOGO*/
+.logo_area{
+    display: flex;
+    align-items: center;
+}
+
+.logo_img{
+    width: toVw(37.46);
+}
+
+.logo_name{
+    width: toVw(79.42);
+    height: toVw(13.27);
+    padding-left: toVw(8.7);
+}
+/*LOGO*/
+
+.empty{
+    width: toVw(535.21);
+}
+
+.empty1{
+    width: toVw(164.5);
+}
+
+/*LINKS*/
+.links_area{
+    width: toVw(450);
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #081131;
+    font-size: toVw(16);
+}
+
+.border{
+    border-bottom: #081131 solid 2px;
+}
+
+.links_light{
+    font-weight: 275;
+    border-bottom: none;
+}
+/*LINKS*/
+
+/*MAINBLOG*/
+.buildings{
+    width: toVw(1440);
+    z-index: -11;
+}
+
+.blog1_area{
+    width: toVw(1440);
+}
+
+/*CONTENT*/
+.blog1_content{
+    position: absolute;
+    height: toVw(234);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: toVw(146);
+    margin-left: toVw(160);
+}
+
+.title{
+    font-family: Montserrat;
+    color: #263640;
+    font-style: normal;
+    font-weight: 500;
+    font-size: toVw(32);
+    width: toVw(470);
+    height: toVw(90);
+    line-height: toVw(45);
+}
+
+.content{
+    width: toVw(427);
+    height: toVw(56);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: toVw(16);
+    line-height: toVw(28);
+    color: #263640;
+}
+
+/*BUTTON*/
+.button_area{
+    width: toVw(164);
+    height: toVw(48);
+    background-color: #081131;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button_content{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: toVw(16);
+    line-height: toVw(40);
+    color: #FFFFFF;
+}
+
+.button_arrow{
+    width: toVw(7.41);
+    height: toVw(12);
+}
+/*BUTTON*/
+/*CONTENT*/
+/*MAINBLOG*/
